@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    width: 50%;
+    color: red;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+    /* text-shadow: -8px -5px red; */
+}
+
+.main {
+    text-align: justify;
+    /* text-decoration: overline; */
+    /* text-transform: lowercase */
+    /* text-indent: 50px; */
+    /* letter-spacing: 0; */
+    /* line-height: 0; */
+    direction: rtl;
+}
+
+
+/* a {
+    text-decoration: none
+} */
+
+
+/* p {
+    word-spacing: -50px;
+} */
+
+
+/* body {
+    font-size: 50%;
+} */
+
+.fonts {
+    /* font-family: 'Courier New', Courier, monospace */
+    /* font-style: normal;
+    font-size: 4em; */
+    /* font-weight: bold; */
+    font-family: 'Mansalva', cursive;
+}
+
+.fonts1 {
+    font-family: Artful;
+}
+
+@font-face {
+    font-family: Artful;
+    src: url("../fonts/ArtfulBeauty.otf");
+}
+
+.fa-accessible-icon {
+    font-size: 40px;
+    color: red;
+}
